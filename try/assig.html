@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .stu-cls {
+            margin: 7px 7px;
+            padding: 7px 20px;
+            border-style: solid;
+            background-color: rgb(255, 255, 255);
+        }
+        .stu-cls-{
+            margin: 7px 7px;
+            padding: 4px 15px;
+            border-style: solid;
+            background-color: rgb(255, 255, 255);
+        }
+        .pad{
+
+        }
+    </style>
+</head>
+<body>
+    <label class="pad">Enter Student ID:</label>
+    <input class="stu-cls-" type="text" id="stu-id"><br>
+    <label>Student Name:</label><br>
+    <input class="stu-cls-" type="text" id="name-id" readonly><br>
+    <label>Student Age:</label><br>
+    <input class="stu-cls-" type="text" id="Age-id" readonly><br>
+    <label>Student Grade:</label><br>
+    <input class="stu-cls-" type="text" id="Grade-id" readonly><br>
+    <button onclick="dataHandler()">Submit</button>
+    <script>
+    const studentData = {
+    "1": {
+        name: "name1",
+        age: 15,
+        grade: "9th",
+    },
+    "2": {
+        name: "name2",
+        age: 16,
+        grade: "10th",
+    },
+    "3" : {
+        name: "name3",
+        age: 3,
+        grade: "11th"
+
+    }
+};
+
+function dataHandler(){
+    let StudentId = document.getElementById("stu-id").value;
+    const studentDatas = studentData[StudentId] 
+    if(studentDatas){
+    document.getElementById("name-id").value = studentDatas.name;
+    document.getElementById("Age-id").value = studentDatas.age;
+    document.getElementById("Grade-id").value = studentDatas.grade;
+    }else{
+        alert("Id din't matches!")
+    }
+
+
+}
+        
+    </script>
+</body>
+</html>

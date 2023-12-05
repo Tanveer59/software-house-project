@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        .input{
+        width: 55%;
+        padding: 5px 5px;
+        margin: 7px 7px 7px 30%;
+        box-sizing: border-box;
+        background-color: #FFF;
+        border: 3px solid #555;
+        }
+
+
+        .label-cls{
+            margin: 0 0 0 30%;
+            color: #FFF;
+        }
+
+
+        .section {
+        display: flex;
+        background-color: #000;
+        padding: 3% 3%;
+        }
+
+        .column {
+        flex: 1;
+        padding: 10px;
+        }
+        .Login-btn{
+            transition-duration: 0.4s;
+            /* width: 100px;
+            height: 25px; */
+            padding: 6px 28px;
+            margin: 14px 14px 0 50%;
+            border-radius: 5px;
+            color: black;
+            border: 2px solid #dadada;
+            display: inline-block;
+        }
+        .Login-btn:hover{
+            background-color: #000; /* Green */
+            color: white;
+        }
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="section">
+        <div class="column">
+            <form class="input-form">
+            <label class="label-cls">First Name: </label><br>
+            <input class="input" type="Enter First Name" id="fcname"><br>
+            <label class="label-cls">Last Name: </label><br>
+            <input class="input" type="Enter Last Name" id="fcname"><br>
+            <label class="label-cls">Email address: </label><br>
+            <input class="input" type="Enter Last Name" id="fcname"><br>
+            <button class="Login-btn"  type="submit" value="Create">Login</button>
+        </form>
+        </div>
+        <div class="column">
+            <form class="input-form" name="myForm" onsubmit="return validateForm()">
+                <label for="fname" class="label-cls">Login: </label><br>
+                <input  class="input" type="Enter First Name" id="Login"><br>
+                <label class="label-cls">Password: </label><br>
+                <input class="input" type="Enter Last Name" id="email"><br>
+                <button class="Login-btn"  type="submit" value="Submit">Login</button>
+            </form>
+    </div>
+      </div>
+    
+    <script>
+
+function validateForm() {
+    let Login = document.getElementById("Login").value;
+    let email = document.getElementById("email").value;
+    let emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+
+    if (Login == "") {
+        alert("Email inputs must be filled out");
+        return false;
+    }
+    if (email == "") {
+        alert("Password must be filled out");
+        return false;
+    }
+    if (!emailPattern.test(email)) { 
+        alert("Invalid email address");
+        return false;
+    }
+}
+    </script>
+</body>
+</html>
