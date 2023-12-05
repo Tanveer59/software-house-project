@@ -1,0 +1,419 @@
+p {
+    font-family: "raleway";
+    color: gray;
+
+}
+
+a.text-of-con {
+    color: gray;
+    text-decoration: none;
+  }
+
+
+.navbar-brand{
+    font-family: "Fira Sans";
+    font-size: larger;
+}
+
+.logo-size{
+    width: 95%;
+}
+
+#intro{
+    background-image: url('mobile/Phone-Camera-Webcam-Gear-GettyImages-1241495650.jpg'); /* Replace 'your-image.jpg' with the path to your background image */
+    background-size: cover;
+    background-position: center center; 
+    height: 100vh; 
+    color: #fff; 
+    margin-top: -10%;
+    /* filter: brightness(50%); */
+  }
+
+.navbar {
+    /* background-color: rgb(255, 255, 255); Adjust the alpha value (0.3) to control transparency */
+    padding: 0 7% 0 7%;
+
+}
+
+
+.transparent-navbar {
+    background-color: rgba(0, 0, 0, 0.0); /* Adjust the alpha value (0.3) to control transparency */
+}
+
+.text-mani {
+    font-family: "Fira Sans";
+    font-weight: normal;
+}
+
+.top-font{
+    text-align: center;
+    margin-top: 4%;
+    font-size: 1.3rem;
+    font-weight: bold;
+
+}
+
+.front-font{
+    font-size: 1.8rem;
+    text-align: center;
+    padding-left: 5%;
+    font-weight: 600;
+}
+
+/* .btn-cls{
+    font-family: "Fira Sans";
+} */
+
+.para1{
+    font-weight: normal;
+    font-size: 1.3rem;
+    margin-top: 2%;
+    text-align: center;
+    color: #fff;
+    
+}
+
+.para2{
+    font-weight: normal;
+    font-size: 1.3rem;
+    margin-bottom: 9%;
+    color: #fff;
+    text-align: center;
+
+}
+
+.size-of-nev{
+    font-family: "Fira Sons";
+    font-size: larger;
+    padding-top: 40px;
+}
+
+.brand-txt{
+    font-family: "Fira Sons";
+    font-size: 30px;
+}
+
+
+.text-head{
+    font-family: 'raleway';
+    font-weight: 100;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.img-head{
+    padding-bottom: 1%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-paragraph{
+    padding-top: 5%;
+}
+
+#second-part{
+    margin: 0% 10% 0 10%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.sec-2{
+    margin-top: 5%;
+    font-family: "raleway";
+    font-weight: 200;
+    font-size: 36px;
+}
+
+.p-sec-part{
+    padding:5% 5%;
+    text-align: left;
+}
+
+
+.iphone-img{
+    width: 60%;
+}
+
+.image-title{
+    margin-top: 5%;
+    font-family: "raleway";
+    font-weight: 100;
+    font-size: 28px;
+}
+
+.image-body{
+    text-align: left;
+    font-family: "raleway";
+}
+
+ul {
+    list-style-image: url(right-to-bdracket-solid.svg);
+    text-align: left;
+    font-family: "raleway";
+    color: gray;
+
+  }
+
+
+.list-pad{
+    padding-bottom: 5px;
+}
+
+#footer{
+    background-color: rgb(238, 238, 238);
+    padding: 3% 10% 0 10%;
+    color: #fff;
+}
+
+.f-head{
+    color: black;
+    font-family: 'raleway';
+    font-size: 15px;
+}
+
+.paragraph{
+    color: gray;
+    font-family: "raleway";
+    font-size: 14px;
+}
+
+
+#copyright{
+    background-color: rgb(238, 238, 238);
+    padding: 0% 10% 0% 10%;
+
+}
+
+.line{
+    border-bottom: 1px solid #000000;
+    /* padding-top: 5%; */
+  }
+
+.f-icon-b{
+    color: aqua;
+}
+
+@media screen and (max-width: 600px){
+
+    .front-font{
+        font-size: 1rem;
+        text-align: left;
+        font-weight: 600;
+
+    }
+    
+    .para1{
+        font-weight: normal;
+        font-size: 0.7rem;
+        margin-top: 2%;
+        text-align: left;
+        padding-left: 5%;
+
+    }
+    
+    .para2{
+        font-weight: normal;
+        font-size: 0.7rem;
+        margin-top: 2%;
+        text-align: left;
+        margin-bottom: 9%;
+        padding-left: 5%;
+    }
+
+    .top-font{
+        text-align: center;
+        margin-top: 4%;
+        font-size: 1rem;
+    
+    }
+    
+    .logo-size{
+        width: 50%;
+    }
+
+    .t-white{
+        color: gray;
+    }
+
+    .transparent-navbar {
+        background-color: rgba(0, 0, 0, 1.0); /* Adjust the alpha value (0.3) to control transparency */
+    }
+}
+
+@media screen and (max-width: 900px){
+    .front-font{
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 600;
+
+    }
+    
+    .para1{
+        font-weight: normal;
+        font-size: 1rem;
+        margin-top: 2%;
+        text-align: center;
+        padding-left: 0%;
+
+    }
+    
+    .para2{
+        text-align: center;
+        font-size: 1rem;
+        margin-bottom: 9%;
+        padding-left: 0%;
+    }
+
+    .top-font{
+        text-align: center;
+        margin-top: 4%;
+        font-size: 1rem;
+    
+    }
+
+    #intro{
+        margin-top: -28%;
+        padding-top: 30%;
+        background-image: url(web/deep-web-cover.jpg);
+      }
+
+    .logo-size{
+        width: 70%;
+    }
+
+
+
+    .text-white{
+        color: #000000;
+    }
+
+    .transparent-navbar {
+        background-color: rgba(0, 0, 0, 1.0); /* Adjust the alpha value (0.3) to control transparency */
+    }
+
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+    /* Styles for Nest Hub */
+    #intro{
+        margin-top: -13%;
+      }
+
+    .logo-size{
+        width:70%;
+    }
+
+    .front-font{
+        font-size: 1rem;
+        text-align: center;
+        font-weight: 600;
+
+    }
+    
+    .para1{
+        font-weight: normal;
+        font-size: 1rem;
+        margin-top: 2%;
+        text-align: center;
+        padding-left: 0%;
+
+    }
+    
+    .para2{
+        text-align: center;
+        font-size: 1rem;
+        margin-bottom: 9%;
+        padding-left: 0%;
+    }
+
+    .top-font{
+        text-align: center;
+        margin-top: 4%;
+        font-size: 1rem;
+    
+    }
+
+    #intro{
+        margin-top: -28%;
+        padding-top: 30%;
+        background-image: url(mobile/train-track-2507499_640.jpg);
+      }
+
+    .logo-size{
+        width: 70%;
+    }
+
+
+
+    .text-white{
+        color: #000000;
+    }
+
+    .transparent-navbar {
+        background-color: rgba(0, 0, 0, 1.0); /* Adjust the alpha value (0.3) to control transparency */
+    }
+
+
+}
+
+@media (max-width: 1080px) {
+    /* Styles for Nest Hub */
+
+
+    .logo-size{
+        width:70%;
+    }
+
+    .front-font{
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 600;
+
+    }
+    
+    .para1{
+        font-weight: normal;
+        font-size: 1rem;
+        margin-top: 2%;
+        text-align: center;
+        padding-left: 0%;
+
+    }
+    
+    .para2{
+        text-align: center;
+        font-size: 1rem;
+        margin-bottom: 9%;
+        padding-left: 0%;
+    }
+
+    .top-font{
+        text-align: center;
+        margin-top: 4%;
+        font-size: 1rem;
+    
+    }
+
+    #intro{
+        margin-top: -34%;
+        padding-top: 30%;
+        background-image: url(mobile/train-track-2507499_640.jpg);
+      }
+
+    .logo-size{
+        width: 70%;
+    }
+
+
+
+    .text-white{
+        color: #000000;
+    }
+
+    .transparent-navbar {
+        background-color: rgba(0, 0, 0, 1.0); /* Adjust the alpha value (0.3) to control transparency */
+    } 
+
+
+}
